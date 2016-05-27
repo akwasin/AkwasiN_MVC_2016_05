@@ -13,5 +13,10 @@ namespace AkwasiN_MVC_2016_05
             return speed;
             //throw new NotImplementedException();
         }
+
+        public float TestingMethod()
+        {
+            return GetCurrentSpeed(20,5);
+        }
     }
 }
